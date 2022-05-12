@@ -33,9 +33,19 @@ footer {
     background-color: #323337;
     border: 3px solid#292a2c;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration-style: dotted;
+    text-decoration-color: #848484;
+    font-size: 20px;
+    flex-direction: column;
 }
 
-
+.box:visited {
+    color: white;
+}
 .other-link {
     color: white;
     text-decoration-style: dotted;
@@ -43,6 +53,11 @@ footer {
 }
 .other-link:visited {
     color: white;
+}
+
+.boxImg {
+    max-width: 300px;
+    max-height: 60px;
 }
 
 h1 {
