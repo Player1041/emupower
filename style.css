@@ -27,6 +27,19 @@ footer {
     left: 0;
 }
 
+.img { 
+    height: 100px;
+    width: 100px;
+}
+
+
+.a-wrap {
+    display: flex;
+    gap: 5px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
 .box {
     width: 300px;
     height: 100px;
@@ -58,6 +71,14 @@ footer {
 .boxImg {
     max-width: 300px;
     max-height: 60px;
+}
+
+.secret {
+    color: #323337;
+}
+
+.secret:visited {
+    color: #323337;
 }
 
 h1 {
