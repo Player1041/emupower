@@ -80,6 +80,7 @@ footer {
 }
 .other-link:visited {
     color: white;
+    text-decoration: none;
 }
 
 .the-other-link {
@@ -91,6 +92,7 @@ footer {
 
 .the-other-link:visited {
     color: white;
+    text-decoration: none;
 }
 
 .boxImg {
