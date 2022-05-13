@@ -1,5 +1,8 @@
 
-*{
+
+
+
+* {
     padding: 0;
     margin: 0;
 }
@@ -7,6 +10,7 @@
 body {
     background-color: #36393f;
     text-align: center;
+    position: relstive;
 }
 
 header {
@@ -22,9 +26,9 @@ footer {
     background-color: #323337;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
     bottom: 0;
     left: 0;
+    position: fixed;
 }
 
 .img { 
@@ -39,9 +43,10 @@ footer {
     margin: auto;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .box {
-    width: 300px;
+    width: 400px;
     height: 100px;
     background-color: #323337;
     border: 3px solid#292a2c;
@@ -61,8 +66,7 @@ footer {
 }
 .other-link {
     color: white;
-    text-decoration-style: dotted;
-    text-decoration-color: #848484;
+    text-decoration: none;
 }
 .other-link:visited {
     color: white;
@@ -73,17 +77,19 @@ footer {
     max-height: 60px;
 }
 
-.secret {
-    color: #323337;
+.wipImg {
+    max-width: 600px;
+    max-height: 600px;
 }
-
-.secret:visited {
-    color: #323337;
+.gap {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
 }
-
 h1 {
     color: red;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
